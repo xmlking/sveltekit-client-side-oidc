@@ -1,0 +1,38 @@
+{
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 500,
+	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+	"pluginSearchDirs": false,
+	"overrides": [
+		{
+			"files": "*.ts",
+			"options": {
+				"printWidth": 140
+			}
+		},
+		{
+			"files": "*.svelte",
+			"options": {
+				"parser": "svelte"
+			}
+		},
+		{
+			"files": ["*.yaml", "*.yml"],
+			"options": {
+				"tabWidth": 2,
+				"bracketSpacing": false
+			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"tabWidth": 2
+			}
+		}
+	],
+	"tabWidth": 4,
+	"embeddedLanguageFormatting": "auto",
+	"htmlWhitespaceSensitivity": "strict"
+}

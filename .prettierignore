@@ -1,0 +1,11 @@
+.svelte-kit/**
+.vercel_build_output/**
+static/**
+build/**
+node_modules/**
+.yarn/**
+/coverage
+CHANGELOG.md
+src/lib/models/types/**
+.idea
+
