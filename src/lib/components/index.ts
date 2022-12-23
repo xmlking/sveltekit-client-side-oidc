@@ -12,5 +12,3 @@ export { default as ListErrors } from './ListErrors.svelte';
 export { default as PreloadingIndicator } from './PreloadingIndicator.svelte';
 export { default as Spinner } from './Spinner.svelte';
 export { default as SplitPanel } from './SplitPanel.svelte';
-
-
